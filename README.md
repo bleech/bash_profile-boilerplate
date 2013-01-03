@@ -16,7 +16,7 @@ Then symlink the bash_profile-boilerplate to your user root directory.
 ln -sf $(pwd)/bash_profile-boilerplate.sh ~/.bash_profile-boilerplate
 ```
 
-Finally, prepend the following lines to your .bash_profile.
+Finally, prepend the following lines to your .bash_profile in your user root directory.
 
 ```
 if [ -f ~/.bash_profile-boilerplate ]; then

@@ -23,6 +23,7 @@ export CLICOLOR=1
 # give privileges to user bin paths
 export PATH="~/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
 
 # directory access shortcuts
 alias desk='cd ~/Desktop/'

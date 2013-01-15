@@ -38,5 +38,6 @@ fi
 
 ## Dependencies
 
+- [npm](https://npmjs.org/)
 - [RVM](https://rvm.io/)
 - [bash-completion](http://bash-completion.alioth.debian.org/)

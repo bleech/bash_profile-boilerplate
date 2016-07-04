@@ -16,6 +16,12 @@ Then symlink the bash_profile-boilerplate to your user root directory.
 ln -sf $(pwd)/bash_profile-boilerplate.sh ~/.bash_profile-boilerplate
 ```
 
+Install bash-completion and gitprompt.
+
+```
+brew install bash-completion bash-git-prompt
+```
+
 Finally, prepend the following lines to your .bash_profile in your user root directory.
 
 ```
@@ -41,3 +47,4 @@ fi
 - [npm](https://npmjs.org/)
 - [RVM](https://rvm.io/)
 - [bash-completion](http://bash-completion.alioth.debian.org/)
+- [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
